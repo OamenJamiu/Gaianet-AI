@@ -16,7 +16,7 @@ logging.basicConfig(
 
 # Configuration
 BASE_URL = "https://llama3b.gaia.domains/v1/chat/completions"
-MODEL = "Llama-3.2-3B-Instruct-Q5_K_M"
+MODEL = "llama-3.2-3B-Instruct-Q5_K_M"
 MAX_RETRIES = 100  # Essentially infinite retries
 RETRY_DELAY = 5  # Seconds between retries
 QUESTION_DELAY = 1  # Seconds between successful questions
